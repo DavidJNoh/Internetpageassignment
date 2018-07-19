@@ -1,0 +1,231 @@
+
+div.backg{
+    width: 1100px;
+    min-height: 1000px;
+    background-color: white;;
+    margin:auto;
+}
+    div.backg div.ttop{
+        display: inline-block;
+        height: 85px;
+        width: 1100px;
+        background-color: white;
+        padding: 0px 5px;
+    }
+        div.backg div.globe{
+            display: inline-block;
+            vertical-align: -5px;
+        }
+            div.backg div.globe img{
+                width: 100px;
+                height: 100px;
+                display: inline-block;
+            }
+        div.backg div.ttop h1{
+        display: inline-block;
+        margin:0px 9px;
+        font-size: 53px;
+        vertical-align: 30px;
+        color: rgb(78, 78, 78);
+        }
+            div.backg div.ttop span{
+                color: rgb(63, 63, 223);
+            }
+    div.backg div.htop{
+        background-color: lightblue;
+        height: 38px;
+        width: 1060px;
+        z-index: -1;
+        padding: 10px 20px;
+    }
+        div.backg div.htop h1 {
+            margin: 0px;
+            color: white;
+        }
+    div.backg div.lleft{
+        min-height: 800px;
+        width: 220px;
+        background-color: white;;
+        padding: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+        div.backg div.lleft div.lltop{
+            height:240px;
+            width: 208px;
+            background-color: white;
+            padding-left: 2px;
+        }
+            div.backg div.lleft div.lltop h3 span{
+                color: red;
+            }
+            div.backg div.lleft div.lltop h4 span{
+                color:blue;
+            }
+            div.backg div.lleft div.lltop a{
+                text-decoration: none;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 5px 20px;
+                margin:5px 5px 0px 5px;
+            }
+            div.backg div.lleft div.lltop hr:nth-child(5){
+                background-color: black;;
+                color: black;
+                margin-top: 35px;
+
+            }
+            div.backg div.lleft div.lltop a:nth-child(4){
+                background-color: orange;
+                border-radius: 5px;
+            }
+            div.backg div.lleft div.lltop a:nth-child(3){
+                background-color: lightseagreen;
+                border-radius: 5px;
+            }
+        div.backg div.lleft div.llbot{
+            height: 380px;
+            width: 200px;
+            background-image: url(internet/ad_background.png);
+            background-repeat: no-repeat;
+            padding: 10px 5px;
+        }
+            div.backg div.lleft div.llbot h2{
+                color: white;
+                text-align: center;
+            }
+            div.backg div.lleft div.llbot img{
+                width: 120px;
+                display: block;
+                margin:5px 40px 25px;
+            }
+            div.backg div.lleft div.llbot a{
+                text-decoration: none;
+                color: white;
+                text-align: center;
+                background-color: rgb(75, 189, 235);
+                padding: 10px 50px;
+                border-radius: 5px;
+                margin-left: 10px;
+            }
+    div.backg div.right{
+        min-height: 856px;
+        width: 800px;
+        background-color: white;
+        display: inline-block;
+        padding-left: 40px;
+    }
+        div.backg div.right hr{
+            height: 1px;
+        }
+        div.backg div.right div.rtop{
+            width:800px;
+            height: 70px;
+            background-color: white;
+            padding-top: 5px;
+        }
+            div.backg div.right div.rtop img{
+                width: 25px;
+                height: auto;
+                display: inline-block;
+                margin: 5px 0px 0px 0px;
+                vertical-align: top;
+            }
+            div.backg div.right div.rtop h2{
+                display: inline-block;
+                margin-bottom: 30px;
+                font-weight: 500;
+                font-size: 20px;
+                margin-top: 5px;
+                vertical-align: top;
+                
+            }
+            div.backg div.right div.rtop div.rtright{
+                display: inline-block;
+                width: 210px;
+                height: 70px;
+                margin-left: 510px;
+                
+            }
+                div.backg div.right div.rtop div.rtright img{
+                    height: 50px;
+                    width: auto;
+                    vertical-align: top;
+                }
+                div.backg div.right div.rtop div.rtright div.numbers{
+                    display: inline-block;
+                    width: 140px;
+                    background-color: white;
+                    text-align: center;
+                    margin-left: 10px;
+                }
+                    div.backg div.right div.rtop div.rtright div.numbers h2{
+                        display: inline-block;
+                        margin: 3px;
+                        font-weight: bold;
+                        color: rgb(75, 189, 235);
+                    }
+                    div.backg div.right div.rtop div.rtright div.numbers h4{
+                        display: inline-block;
+                        margin:1px;
+                        font-size: 10px;
+                    }
+
+        div.backg div.right h2{
+            color: rgb(65, 65, 252);
+        }
+        div.backg div.right h4{
+            font-weight: 500;
+            margin:5px 0px;
+        }
+        div.backg div.right span{
+            color: rgb(5, 160, 207);
+            font-weight: bolder;
+        }
+        div.backg div.right span.bold{
+            color: black;
+            font-weight: bolder;
+        }
+
+        div.backg div.right ul li{
+            margin-bottom: 10px;
+        }
+        
+        div.backg div.right img{
+            width: 300px;
+            margin-left: 230px;
+        }
+        div.backg div.right ol li{
+            margin-bottom: 10px;
+        }
+        div.backg div.right div.rbot{
+            width: 760px;
+            height: 160px;
+            background-color: white;
+            border-top: rgb(65, 65, 252) solid 4px;
+            border-left: rgb(65, 65, 252) solid 4px;
+            border-right: 4px rgb(65, 65, 252) solid;
+            padding: 10px;
+            margin-top: 60px;
+        }
+            div.backg div.right div.rbot img{
+                width: 170px;
+                display: inline-block;
+                margin:0px;
+            }
+            div.backg div.right div.rbot div.big3{
+                display: inline-block;
+                width: 560px;
+                vertical-align: top;
+                padding-left: 10px;
+            }
+                div.backg div.right div.rbot h2{
+                    display: inline-block;
+                    margin: 10px 0px;
+                }
+                div.backg div.right div.rbot h4{
+                    display: inline-block;
+                    width: 560px;
+                    
+                }
